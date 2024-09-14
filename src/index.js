@@ -28,7 +28,6 @@ function handleLogoUpload(event) {
     uploadedLogo.src = reader.result;
     uploadedLogo.style.display = "block";
     umbrellaImage.style.zIndex = "-1";
-    // umbrellaImage.style.backgroundImage = `url('${reader.result}')`;
   };
 }
 logoUploadButton.addEventListener("click", () => {
